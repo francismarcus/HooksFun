@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import ClickCounter from './clickCounter/ClickCounter'
+import ClickCounter from './ClickCounter/ClickCounter'
 
 const App = () => {
   return (
