@@ -17,11 +17,11 @@ const ClickCounter = () => {
             <Title>
                 The counter is currently {count}
             </Title>
-            <Button 
-                onClick={() => increment()}> +
+            <Button
+                onClick={increment}> +
             </Button>
-            <Button 
-                onClick={() => decrement()}> -
+            <Button
+                onClick={decrement}> -
             </Button>
         </Wrapper>
     )
